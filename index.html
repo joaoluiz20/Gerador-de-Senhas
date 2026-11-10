@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+
+    <style>
+        
+        body {
+            display: flex;
+            justify-content: center;   /* centra na horizontal */
+            align-items: center;       /* centra na vertical */
+            min-height: 100vh;         /* ocupa a altura toda do ecrã */
+            margin: 0;                 /* remove a margem padrão do body */
+            background-color: rgb(250, 249, 249);
+        }
+
+        .pai {
+            display: Flex;
+            gap: 150px;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(74, 163, 74);
+            color: rgb(0, 0, 0);
+            width: 600px;
+            height: 700px;
+        }
+
+        .int1 {
+            display: Flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(74, 163, 74);
+            color: rgb(0, 0, 0);
+            width: 600px;
+            height: 700px;
+        }
+
+        #titulo {
+            font-size: 40px;
+            color:black;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+
+        #senha{
+            align-self: center;
+            font-size: 30px;
+            color:black;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        #gerada{
+            width: 300px;
+            height: 35px;
+            font-size:xx-large;
+            border-radius: 15px;
+            border-color: black;
+        }
+
+        #botao{ 
+            border-radius:15px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="centro" class="pai">
+        <placeHolder id="titulo">Gerador de senha!</placeHolder>
+        <div id="interno" class="int1">
+            <placeHolder id="senha">Sua senha gerada:</placeHolder>
+            <textarea id="gerada"></textarea>
+
+            <Button id="botao">Gerar Senha</Button>
+        </div>
+
+    </div>  
+
+    <script>
+
+    </script>
+</body>
+</html>
