@@ -80,8 +80,16 @@
 
     <script>
         document.getElementById("botao").addEventListener("click",gerSenha);
-        
+        var senha = document.getElementById("senha").Value;
+        const maiscula = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const minuscula = 'abcdefghijklmnopqrstuvwxyz;'
+        const num = '0123456789';
+        const especiais = '!@#$%¨&*()=+-_/?\|]}[{}] ';
+
+
         function gerSenha() {
+           if (senha != null) ;
+            alert('Você ja gerou uma senha, tem certeza que irá gerar outra? isso irá apagar a senha já GERADA!');
             
         }
             
